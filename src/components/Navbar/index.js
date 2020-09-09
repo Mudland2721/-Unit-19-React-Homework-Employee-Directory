@@ -3,8 +3,8 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-dark navbar-bg bg-dark">
-      <span className="navbar-brand mx-auto h1">Employee Directory</span>
+    <nav className='navbar navbar-dark bg-dark'>
+      <span className='navbar-brand mx-auto h1'>React Employee Directory</span>
     </nav>
   );
 }

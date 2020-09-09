@@ -125,7 +125,7 @@ class DataArea extends Component {
     return (
       <>
         <Search handleInputChange={this.handleInputChange} />
-        <table className='table table-striped table-hover mt-5'>
+        <table className="table table-striped table-hover mt-5">
           <Headings headings={this.headings} handleSort={this.handleSort} />
           <Table users={this.state.filteredUsers} />
         </table>

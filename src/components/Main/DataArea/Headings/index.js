@@ -3,15 +3,15 @@ import "./style.css";
 
 function Headings(props) {
   return (
-    <thead className='thead-dark'>
+    <thead className="thead-dark">
       <tr>
         {props.headings.map(({ hname, width }) => {
           return (
-            <th className='col' key={hname} style={{ width }}>
+            <th className="col" key={hname} style={{ width }}>
               {hname}{" "}
               {hname ? (
                 <i
-                  className='fas fa-sort'
+                  className="fas fa-sort"
                   data-key={hname}
                   style={{ cursor: "pointer" }}
                   onClick={props.handleSort}></i>
