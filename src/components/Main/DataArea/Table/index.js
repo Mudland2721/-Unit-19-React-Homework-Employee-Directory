@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 
+//display table
 function Table({ users }) {
   function formatDate(date) {
     const newDate = date.slice(0, 10);
@@ -17,23 +18,23 @@ function Table({ users }) {
         users.map(({ name, login, picture, phone, email, dob }) => {
           return (
             <tr key={login.uuid}>
-              <td className="align-middle">
+              <td className='align-middle'>
                 <img
                   src={picture.medium}
-                  alt="profile"
-                  className="img img-responsive"
+                  alt='profile'
+                  className='img img-responsive'
                 />
               </td>
-              <td className="name-cell align-middle">
+              <td className='name-cell align-middle'>
                 {name.first} {name.last}
               </td>
-              <td className="align-middle">{phone}</td>
-              <td className="align-middle">
-                <a href={"mailto:" + email} target="__blank">
+              <td className='align-middle'>{phone}</td>
+              <td className='align-middle'>
+                <a href={"mailto:" + email} target='__blank'>
                   {email}
                 </a>
               </td>
-              <td className="align-middle">{formatDate(dob.date)}</td>
+              <td className='align-middle'>{formatDate(dob.date)}</td>
             </tr>
           );
         })

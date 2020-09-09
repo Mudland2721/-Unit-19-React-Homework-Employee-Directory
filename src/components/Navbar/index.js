@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 
+// nav start
 function Navbar() {
   return (
     <nav className='navbar navbar-dark bg-dark'>
@@ -8,5 +9,6 @@ function Navbar() {
     </nav>
   );
 }
+// nav end
 
 export default Navbar;
