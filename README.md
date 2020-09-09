@@ -58,4 +58,6 @@ React-Employee-Directory.gif
 
 - Perhaps a way to view certain employees from the list to view together in groups
 
+- As a side not learned the hard way to commit often created a bug that too lots of time to get corrected that would have been a quick fix if early commits where made.
+
 ![Demo](./public/images/React-Employee-Directory.gif)
